@@ -22,3 +22,11 @@ python -m venv .venv
 
 pip install -r requirements.txt
 python Basic.py
+
+## License
+
+This project is licensed under the MIT License.
+
+Hand tracking logic is inspired by tutorials from  
+Murtaza Hassan (Murtaza's Workshop - Robotics and AI).
+

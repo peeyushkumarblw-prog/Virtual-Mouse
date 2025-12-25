@@ -1,3 +1,15 @@
+"""
+Hand Tracking Module
+
+Original concept and base implementation inspired by:
+Murtaza Hassan
+YouTube: https://www.youtube.com/c/MurtazasWorkshopRoboticsandAI
+Website: https://www.computervision.zone/
+
+Modified and extended by: Peeyush Kumar
+Used as part of a larger Virtual Mouse project.
+"""
+
 import cv2
 import mediapipe as mp
 import time
