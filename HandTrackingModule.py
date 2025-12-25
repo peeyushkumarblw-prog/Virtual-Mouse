@@ -1,4 +1,3 @@
-"""Base provided by: Murtaza Hassan"""
 import cv2
 import mediapipe as mp
 import time
@@ -27,8 +26,7 @@ class handDetector():
         if self.results.multi_hand_landmarks:
             for handLms in self.results.multi_hand_landmarks:
                 if draw:
-                    self.mpDraw.draw_landmarks(img, handLms,
-                                               self.mpHands.HAND_CONNECTIONS)
+                    self.mpDraw.draw_landmarks(img, handLms,self.mpHands.HAND_CONNECTIONS)
 
         return img
 
@@ -113,6 +111,8 @@ def main():
 
         cv2.imshow("Image", img)
         cv2.waitKey(1)
+    cap.release()
+    cv2.destroyAllWindows()
 
 
 if __name__ == "__main__":
