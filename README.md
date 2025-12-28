@@ -15,7 +15,7 @@ to control the system cursor.
 
 ```bash
 git clone https://github.com/peeyushkumarblw-prog/Virtual-Mouse.git
-cd VirtualMouse
+cd Virtual-Mouse
 
 python -m venv .venv
 .venv\Scripts\activate
