@@ -11,6 +11,14 @@ to control the system cursor.
 - Toggleable debug drawing (using D key on keyboard)
 - Built with OpenCV, MediaPipe, pynput, and pyautogui
 
+## Requirements
+
+- Python **3.10 – 3.12**  
+  *(MediaPipe does not currently support Python 3.13)*
+- A working webcam
+- Supported OS: Windows / macOS / Linux
+- Internet connection (for installing dependencies)
+
 ## Setup Instructions
 
 ```bash
