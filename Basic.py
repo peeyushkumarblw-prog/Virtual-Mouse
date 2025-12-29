@@ -36,7 +36,7 @@ mx,my = 0,0
 #################################################
 
 ##  Objects  ####################################
-cap = cv2.VideoCapture(1) #0 for single camera source
+cap = cv2.VideoCapture(0) #0 for single camera source
 cap.set(3,width)
 cap.set(4,height)
 
